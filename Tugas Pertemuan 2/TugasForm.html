@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Judul Web -->
+        <title>Tugas Login Page PWEB</title>
+
+        <!-- Style Web -->
+        <style>
+            form{
+                border: 1px solid black;
+                margin: auto;
+                padding: 10px;
+                width: fit-content;
+                height: fit-content;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form method="post" action="TugasTable.html">
+            <table>
+                <!-- Judul -->
+                <b>LOGIN</b>
+
+                <!-- Nama -->
+                <tr>
+                    <td>Nama: </td>
+                    <td><input type="text" name="nama" size="20"></td>
+                </tr>
+
+                <!-- Password -->
+                <tr>
+                    <td>Password: </td>
+                    <td><input type="password" name="password" size="20"></td>
+                </tr>
+            </table>
+
+            <!-- Checkbox -->
+            <input type="checkbox" value="Remember Me" name="save">Remember Me<br>
+
+            <!-- Login Button -->
+            <input type="submit" value="Login" name="login">
+        </form>
+    </body>
+</html>
