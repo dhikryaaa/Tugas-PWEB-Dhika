@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.kotak {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.background {
+    position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://wallpapercave.com/wp/wp8199036.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: 0;
+}
+
+.main {
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003F76; /* Dark blue */
+    padding: 15px;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    display: inline-block;
+}
+
+.register-btn {
+    background-color: #003F76;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.firstevent {
+    background-color: #4F4F4F;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.secondevent {
+    background-color: #D9D9D9;
+    color: black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.thirdevent {
+    background-color: #4F4F4F;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .firstevent .secondevent .thirdevent {
+        width: 100%; 
+    }
+}
+
+.textwhite {
+    color: white;
+}
+
+.textblack {
+    color: black;
+}
+
+.textcenter {
+    text-align: center;
+}
