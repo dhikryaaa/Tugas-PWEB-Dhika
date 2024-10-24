@@ -66,7 +66,7 @@ document.getElementById('dataDiriForm').addEventListener('submit', function (e) 
         document.getElementById('errorPassword').textContent = 'Kata sandi harus diisi';
         isValid = false;
     } else if (password.length < 8) {
-        document.getElementById('errorPassword').textContent = 'Kata sandi harus minimal 6 karakter';
+        document.getElementById('errorPassword').textContent = 'Kata sandi harus minimal 8 karakter';
         isValid = false;
     }
 
