@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>D's Store</title>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            /* Judul */
+            .Judul {
+                background-color: #6750A3;
+                text-align: center;
+                color: #ffffff;
+                border: 2px solid #6750A3;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                padding: 10px;
+            }
+            
+            /* Navbar */
+            .Navbar {
+                display: flex;
+                background-color: #6750A3;
+                border: 2px solid #6750A3;
+                border-radius: 8px;
+            }
+            
+            .Navbar p a {
+                color: #ffffff;
+                margin: 10px;
+                text-decoration: none;
+            }
+            
+            .Navbar p a:hover {
+                border-radius: 8px;
+                background-color: white;
+                color: #6750A3;
+                padding: 10px;
+            }
+            
+            /* Container*/
+            .Container {
+                margin-top: 10px;
+                display: flex;
+            }
+            
+            /* Courses */
+            .CourseCon {
+                padding-top: 10px;
+                padding-right: 50px;
+                flex: 3;
+            }
+            
+            .Tugas {
+                border: 2px solid #6750A3;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 8px;
+                box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+                padding-bottom: 50px;
+            }
+            
+            img {
+                width: 10%;
+                height: 10%;
+                margin-right: 20px;
+            }
+            .buybutton {
+                background-color: #6750A3;
+                color: white;
+                border: 2px solid #6750A3;
+                padding: 15px 30px;
+                font-size: 16px;
+                border-radius: 8px;
+            }
+
+            .buybutton:hover {
+                background-color: white;
+                color: #6750A3;
+                border: 2px solid #6750A3;
+                border-radius: 8px;
+            }
+            
+            /* Aside */
+            .Aside {
+                background-color: #6750A3;
+                border-radius: 8px;
+                flex: 1;
+            }
+            
+            .Aside h2 b {
+                color: #ffffff;
+                margin: 10px;
+                text-align: center;
+            }
+            
+            .Aside p a {
+                color: #ffffff;
+                margin: 10px;
+                text-decoration: none;
+            }
+            
+            .Aside p a:hover {
+                border-radius: 8px;
+                background-color: white;
+                color: #6750A3;
+                padding: 10px;
+            }
+            
+            .Aside hr {
+                margin: 10px;
+            }
+            
+            /* Footer */
+            footer {
+                text-align: center;
+                background-color: #6750A3;
+                color: #ffffff;
+            }
+            
+            footer p {
+                padding: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="Judul">
+            <h1>Dhika's Electronic Store</h1>
+        </div>
+
+        <nav>
+            <div class="Navbar">
+                <p><a href="#">HOME</a></p>
+                <p><a href="#">PRODUK</a></p>
+                <p><a href="#">TENTANG KAMI</a></p>
+                <p><a href="#">HUBUNGI KAMI</a></p>
+            </div>
+        </nav>
+
+        <div class="Container">
+            <div class="CourseCon">
+                <section class="Tugas">
+                    <img src="https://atlantaelectronics.co.id/assets/public/images/product/240109012132GCX257CQEW.png">
+                    <div class="Course">
+                        <header>
+                            <h2>Kulkas Unggulan</h2>
+                        </header>
+        
+                        <p>Produk yang kami jual adalah produk yang memiliki spesifikasi tertinggi dan kami menggaransikan ketahanan produk kami.</p>
+                        <button class="buybutton">Beli Sekarang</button>
+                    </div>
+                    
+                </section>
+    
+                <section class="Tugas">
+                    <img src="https://images.philips.com/is/image/philipsconsumer/c5316506fe50413fa4adaeae005439b0?wid=700&hei=700&$pnglarge$">
+                    <div class="Course">
+                        <header>
+                            <h2>Rice Cooker Unggulan</h2>
+                        </header>
+        
+                        <p>Produk yang kami jual adalah produk yang memiliki spesifikasi tertinggi dan kami menggaransikan ketahanan produk kami.</p>
+                        <button class="buybutton">Beli Sekarang</button>
+                    </div>
+                </section>
+    
+                <section class="Tugas">
+                    <img src="https://cdn.idntimes.com/content-images/post/20240426/cuckoo-low-watt-microwave-23-l-cmw-e23t-b270552da041060cd576bf78ff1731a7.jpg">
+                    <div class="Course">
+                        <header>
+                            <h2>Microwave Unggulan</h2>
+                        </header>
+        
+                        <p>Produk yang kami jual adalah produk yang memiliki spesifikasi tertinggi dan kami menggaransikan ketahanan produk kami.</p>
+                        <button class="buybutton">Beli Sekarang</button>
+                    </div>
+                </section>
+
+                <section class="Tugas">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQscNMRSj1Vyno1S_se006zWbFes6ztR_AJIg&s">
+                    <div class="Course">
+                        <header>
+                            <h2>Printer Unggulan</h2>
+                        </header>
+        
+                        <p>Produk yang kami jual adalah produk yang memiliki spesifikasi tertinggi dan kami menggaransikan ketahanan produk kami.</p>
+                        <button class="buybutton">Beli Sekarang</button>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="Aside">
+                <h2><b>Category</b></h2>
+                <hr>
+                <p><a href="#">Kulkas</a></p>
+                <p><a href="#">Rice Cooker</a></p>
+                <p><a href="#">Microwave</a></p>
+                <p><a href="#">Printer</a></p>
+                <p><a href="#">Television</a></p>
+                <p><a href="#">Speaker</a></p>
+            </aside>
+        </div>
+
+        <footer>
+            <p>Bumi Marina Emas Blok B No. 48 || +6289611716229 || andhika.aryaputra@gmail.com</p>
+        </footer>
+    </body>
+</html>
